@@ -9,8 +9,6 @@ import {
   Heading,
   Flex,
   Menu,
-  MenuItem,
-  MenuList,
   MenuButton,
   IconButton,
   useColorModeValue
