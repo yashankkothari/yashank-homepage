@@ -108,29 +108,6 @@ const Navbar = props => {
                 variant="outline"
                 aria-label="Options"
               />
-              <MenuList>
-                <MenuItem as={MenuLink} href="/">
-                  About
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
-                  Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
-                  Wallpapers
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
-                </MenuItem>
-                {/* <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
-                </MenuItem> */}
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/yashankhome/yashankhome-homepage"
-                >
-                  View Source
-                </MenuItem>
-              </MenuList>
             </Menu>
           </Box>
         </Box>
