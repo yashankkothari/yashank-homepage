@@ -9,7 +9,7 @@ import {
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -70,12 +70,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Hi, I'm Yashank, a developer and graphic designer/video editor based in
+        Hi, I&apos;m Yashank, a developer and graphic designer/video editor based in
         Mumbai, Maharashtra, India. I have a passion for creating digital experiences
-        that blend technology and art. With expertise in machine learning, I'm currently
+        that blend technology and art. With expertise in machine learning, I&apos;m currently
         expanding my skill set by learning game development to craft immersive and 
         intelligent applications.
-        I'm excited about the opportunities ahead in software development, 
+        I&apos;m excited about the opportunities ahead in software development, 
         digital content creation, game development, and machine learning.
 {/* 
 {' '}
